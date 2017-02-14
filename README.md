@@ -1,3 +1,7 @@
+install
+
+    sudo sh install.sh
+
 copy some commands to your /usr/local/bin
 
 z  : open current directory in Finder
