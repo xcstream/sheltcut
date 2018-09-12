@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+wget -O- https://raw.githubusercontent.com/aliyun-node/tnvm/master/install.sh | bash
+export METHOD=script
+source .bashrc
+tnvm install node-v9.9.0
+tnvm use node-v9.9.0
+
+
